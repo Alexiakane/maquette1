@@ -1,0 +1,180 @@
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.header {
+    background-image: url(bg_header.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: white;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 5% 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.lien1 {
+    color: white;
+    grid-area: 1/3;
+    text-decoration: none;
+}
+.lien1:hover {
+    color: #cca57c;
+    text-decoration: underline;
+}
+.lien2 {
+    color: white;
+    grid-area: 1/4;
+    text-decoration: none;
+}
+.lien2:hover {
+    color: #cca57c;
+    text-decoration: underline;
+}
+.logohd {
+    grid-area: 1/5;
+}
+.lien3 {
+    color: white;
+    grid-area: 1/8;
+    text-decoration: none;
+}
+.lien3:hover {
+    color: #cca57c;
+    text-decoration: underline;
+}
+.lien4{
+    color: white;
+    grid-area: 1/9;
+    text-decoration: none;
+}
+.lien4:hover {
+    color: #cca57c;
+    text-decoration: underline;
+}
+.logo {
+    background-color: #272727;
+    width: 100px;
+    height: 190px ;
+    align-content: space-evenly;
+    text-decoration: none;
+    grid-area: 4/1;
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 15% 25% 25% 25% 15%;
+}
+.fb {
+    grid-area: 2/2;
+
+}
+.pin {
+    grid-area: 3/2;
+}
+.yt {
+    grid-area: 4/2;
+
+}
+.para1{
+    grid-area: 2/6/6/10;
+}
+.look {
+    background-color: #cca57c ;
+    border-radius: 17px 17px;
+    height: 30px;
+    width: 125px;
+    text-align: center;
+    align-content: center;
+    grid-area: 5/9;
+}
+.look1 {
+    color: white;
+    text-decoration: none;
+}
+.A {
+    background-color: #606060;
+    margin: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.deux {
+    background-color: #272727;
+    color: white;
+    height: 500px;
+}
+.pjaune {
+    color: #cca57c;
+}
+.trois {
+    background-color: #cca57c;
+    justify-items: center;
+}
+.trio {
+    background-color: #cca57c;
+    display: flex;
+    justify-content: space-evenly;
+}
+.paris {
+    background-image: url(paris.jpg);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 350px;
+    width: 220px;
+    color: white;
+}
+.janvier {
+    background-color: #272727;
+}
+.london {
+    background-image: url(london.jpg);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 350px;
+    width: 220px;
+    color: white;
+}
+.mars {
+    background-color: #272727;
+}
+.quatre {
+    background-color: #272727;
+}
+.triob {
+    display: flex;
+    justify-content: space-evenly;
+}
+.titre4 {
+    color: white;
+}
+.gris {
+    color: #606060;
+}
+.blanc {
+    color: white;
+}
+.more {
+    background-color: #606060;
+    color: #cca57c;
+}
+.more:hover {
+    background-color: #cca57c;
+    color: #606060;
+}
+.footer {
+    background-image: url(bg_footer.jpg);
+    height: 430px;
+}
+.formulaire {
+    background-image: url(visuelgauche.jpg);
+    height: 315px;
+    width: 390px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
