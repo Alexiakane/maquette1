@@ -1,4 +1,3 @@
-
 body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
@@ -20,41 +19,50 @@ body {
 .lien1 {
     color: white;
     grid-area: 1/3;
+    text-align: center;
     text-decoration: none;
 }
 .lien1:hover {
     color: #cca57c;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: solid #cca57c;
 }
 .lien2 {
     color: white;
     grid-area: 1/4;
+    text-align: center;
     text-decoration: none;
 }
 .lien2:hover {
     color: #cca57c;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: solid #cca57c;
 }
 .logohd {
     grid-area: 1/5;
+    align-items: center;
 }
 .lien3 {
     color: white;
     grid-area: 1/8;
+    text-align: center;
     text-decoration: none;
 }
 .lien3:hover {
     color: #cca57c;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: solid #cca57c;
 }
 .lien4{
     color: white;
     grid-area: 1/9;
+    text-align: center;
     text-decoration: none;
 }
 .lien4:hover {
     color: #cca57c;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: solid #cca57c;
 }
 .logo {
     background-color: #272727;
@@ -69,17 +77,67 @@ body {
 }
 .fb {
     grid-area: 2/2;
-
+    position: relative;
 }
+.fb img:nth-child(2) {
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    opacity: 0;
+    transition: opacity ease 0.4s;
+    -webkit-transition: opacity ease 0.4s;
+    -moz-transition: opacity ease 0.4s;
+    -ms-transition: opacity ease 0.4s;
+    -o-transition: opacity ease 0.4s;
+}
+.fb:hover img:nth-child(2){
+    opacity: 1;
+    }
 .pin {
     grid-area: 3/2;
+    position: relative;
 }
+.pin img:nth-child(2) {
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    opacity: 0;
+    transition: opacity ease 0.4s;
+    -webkit-transition: opacity ease 0.4s;
+    -moz-transition: opacity ease 0.4s;
+    -ms-transition: opacity ease 0.4s;
+    -o-transition: opacity ease 0.4s;
+    }
+.pin:hover img:nth-child(2){
+    opacity: 1;
+    }
 .yt {
     grid-area: 4/2;
-
+    position: relative;
+}
+.yt img:nth-child(2) {
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    opacity: 0;
+    transition: opacity ease 0.4s;
+    -webkit-transition: opacity ease 0.4s;
+    -moz-transition: opacity ease 0.4s;
+    -ms-transition: opacity ease 0.4s;
+    -o-transition: opacity ease 0.4s;
+    }
+.yt:hover img:nth-child(2){
+    opacity: 1;
 }
 .para1{
     grid-area: 2/6/6/10;
+}
+h1 {
+    font-size: xxx-large; 
+    text-align: right;
+}
+.p1 {
+    text-align: right;
 }
 .look {
     background-color: #cca57c ;
@@ -97,20 +155,55 @@ body {
 .A {
     background-color: #606060;
     margin: 0;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 .deux {
     background-color: #272727;
     color: white;
     height: 500px;
 }
+.titre2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.titrej {
+    color: #cca57c;
+}
+.contenu {
+    margin: 5%;
+}
+.londonh {
+    background-image: url(london_hall.jpg);
+    float: right;
+    height: 295px;
+    width: 220px;
+}
+.londonh1{
+    background-color: #cca57c;
+    height: 30px;
+    width: 150px;
+
+}
 .pjaune {
     color: #cca57c;
+    border-left: solid #cca57c;
+    text-align: right;
+    text-justify: inter-word;
+    margin-left: 5%;
 }
 .trois {
     background-color: #cca57c;
-    justify-items: center;
+}
+.titre3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.titren {
+    color: black;
 }
 .trio {
     background-color: #cca57c;
@@ -123,11 +216,15 @@ body {
     justify-content: space-between;
     flex-direction: column;
     height: 350px;
-    width: 220px;
+    width: 320px;
     color: white;
+    margin: 1%  4% 1%;
 }
 .janvier {
     background-color: #272727;
+    height: 30px;
+    width: 150px;
+    margin: 5%;
 }
 .london {
     background-image: url(london.jpg);
@@ -135,11 +232,18 @@ body {
     justify-content: space-between;
     flex-direction: column;
     height: 350px;
-    width: 220px;
+    width: 320px;
     color: white;
+    margin: 1% 4% 1%;
 }
 .mars {
     background-color: #272727;
+    height: 30px;
+    width: 120px;
+    margin: 6%;
+}
+.douze {
+    margin: 1% 4% 1%;
 }
 .quatre {
     background-color: #272727;
@@ -151,28 +255,80 @@ body {
 .titre4 {
     color: white;
 }
+.developpement {
+    margin: 5%;
+}
+.plans {
+    margin: 5%;
+}
 .gris {
     color: #606060;
+    font-size: small;
 }
 .blanc {
     color: white;
 }
 .more {
     background-color: #606060;
-    color: #cca57c;
+    text-align: right;
+    height: 30px;
+    width: 125px;
 }
 .more:hover {
     background-color: #cca57c;
     color: #606060;
 }
+.more1 {
+    color: #cca57c;
+    text-decoration: none;
+}
+.more1:hover {
+    color: #606060;
+}
+.textmap {
+    text-align: right;
+    font-size: small;
+    margin: 7% 5% 3%;
+}
+.map {
+    border-top: solid #cca57c ;
+    border-bottom: solid #cca57c;
+}
+
 .footer {
     background-image: url(bg_footer.jpg);
     height: 430px;
+    display: flex;
+    justify-content: center;
 }
-.formulaire {
+.visuel {
     background-image: url(visuelgauche.jpg);
     height: 315px;
     width: 390px;
+    margin: 5% 0 5% 5%;
+}
+.formulaire {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 315px;
+    width: 390px;
+    margin: 5% 5% 5% 0;
+}
+
+
+input[type="text"], input[type="email"] {
+    background-color: black;
+    border: 0;
+    font-size: large;
+}
+.envoyer {
+    background-color: #cca57c;
+    color: white;
+    border-radius: 5px 5px;
+    height: 30px;
+    width: 125px;
+}
+input::placeholder{
+    color: white;
 }
 h2 {
     margin-top: 0;
